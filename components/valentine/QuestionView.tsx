@@ -22,8 +22,8 @@ export const QuestionView: React.FC<QuestionViewProps> = ({
 
   const phrases = [
     "Oui", "Tu es sûre ?", "Vraiment sûre ?", "Pense-y bien !", 
-    "Dernière chance !", "Tu me brises le cœur...", "Je vais pleurer...", 
-    "Arrête de cliquer non !", "S'il te plaît...", "CLIQUE SUR OUI EN FAIT !!!!"
+    "Dernière chance !", "Please...", "Je vais pleurer...", 
+    "STOP OH !", "S'il te plaît...", "OUI"
   ];
   
   const yesButtonText = phrases[Math.min(noCount, phrases.length - 1)];
